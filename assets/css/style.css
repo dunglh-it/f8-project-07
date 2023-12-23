@@ -63,6 +63,14 @@ a {
     color: var(--text-color);
 }
 
+.section-heading {
+    margin-top: 12px;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--text-heading);
+}
+
 .section-desc {
     margin-top: 20px;
     font-size: 1.8rem;
@@ -330,7 +338,7 @@ a {
 
 /* Work */
 .work {
-    padding-top: 80px;
+    padding: 80px 0;
 }
 
 .work__inner {
@@ -359,13 +367,14 @@ a {
     margin: 0 auto;
     width: calc(100% - 14px);
     height: 620px;
+    object-fit: cover;
     display: block;
 }
 
 .work-logo {
     position: absolute;
-    top: 75px;
-    right: 55px;
+    top: 85px;
+    right: 62px;
     background-color: #fff;
     padding: 10px;
     border-radius: 6px;
@@ -427,7 +436,7 @@ a {
     font-family: "Inter", sans-serif;
 }
 
-.work-check__title {
+.work-check__name {
     font-size: 1.4rem;
     font-weight: 600;
     color: var(--text-heading);
@@ -438,4 +447,30 @@ a {
     font-size: 1.2rem;
     font-weight: 400;
     color: var(--text-color);
+}
+
+.work__content {
+    margin-top: 29px;
+    margin-left: auto;
+    width: 470px;
+}
+
+.work__list {
+    margin-top: 70px;
+}
+
+.work__item {
+    margin-bottom: 30px;
+}
+
+.work__item-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.45;
+    color: var(--text-heading);
+}
+
+.work__item-desc {
+    margin-top: 16px;
+    font-size: 1.6rem;
 }
