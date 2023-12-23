@@ -50,6 +50,7 @@ a {
     text-align: center;
     color: #fff;
     transition: opacity 0.25s linear;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -473,4 +474,51 @@ a {
 .work__item-desc {
     margin-top: 16px;
     font-size: 1.6rem;
+}
+
+/* Payment */
+.payment {
+    padding-top: 80px;
+}
+
+.payment__inner {
+    display: flex;
+    align-items: center;
+}
+
+.payment__content {
+    width: 40%;
+}
+
+.payment__list {
+    margin-top: 28px;
+}
+
+.payment__item + .payment__item {
+    margin-top: 18px;
+}
+
+.payment__item {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67;
+    color: var(--text-heading);
+}
+
+.payment__item::before {
+    content: "";
+    margin-right: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #7264D6;
+    border-radius: 50%;
+}
+
+.payment__btn {
+    --height: 58px;
+
+    margin-top: 38px;
+    min-width: 149px;
 }
