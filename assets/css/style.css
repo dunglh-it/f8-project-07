@@ -747,3 +747,115 @@ a {
     width: 470px;
     margin-left: auto;
 }
+
+/* Client */
+.client {
+    padding: 80px 0;
+}
+
+.client__top {
+    width: 435px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.client__desc {
+    font-size: 1.6rem;
+}
+
+.client__message {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.message__desc {
+    position: relative;
+    padding: 42px 28px;
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.55;
+    color: var(--text-color);
+    text-align: center;
+    border: 1px solid #DFE2E8;
+    background-color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.message__desc::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    rotate: -45deg;
+    border: 1px solid;
+    border-color: transparent transparent #DFE2E8 #DFE2E8;
+}
+
+.message__desc:hover, .message__desc--active {
+    border-color: #fff;
+    filter: drop-shadow(0px 22px 54px rgba(0, 0, 0, 0.07));
+}
+
+.message__desc:hover .message__desc::after, .message__desc--active {
+    border-color: transparent;
+}
+
+.message-info {
+    margin-top: 36px;
+    text-align: center;
+}
+
+.message-img__wrap {
+    position: relative;
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    background-color: #4AB5E3;
+    overflow: hidden;
+    top: 36px;
+    left: 52%;
+    transform: translateX(-50%);
+}
+
+.message__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.message-img--green {
+    background-color: #439F90;
+}
+
+.message__name, .message__job {
+    margin-left: 28px;
+}
+
+.message__name {
+    margin-top: 60px;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38;
+    color: #070052;
+}
+
+.message__job {
+    margin-top: 2px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.67;
+    color: var(--text-color);
+}
