@@ -859,3 +859,21 @@ a {
     line-height: 1.67;
     color: var(--text-color);
 }
+
+.client__dots {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.dot--active {
+    background-color: #7264D6;
+}
+
+.client__dot {
+    width: 25px;
+    height: 6px;
+    border: 1px solid #7264D6;
+}
