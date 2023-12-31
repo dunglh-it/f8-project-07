@@ -954,3 +954,81 @@ a {
     line-height: 1.63;
     color: #7264D6;
 }
+
+/* App */
+.app {
+    padding: 80px 0;
+}
+
+.app__wrap {
+    position: relative;
+    background-color: #7264D6;
+    border-radius: 24px;
+}
+
+.app__background {
+    position: absolute;
+    top: 48px;
+    left: 112px;
+    width: 936px;
+}
+
+.app__inner {
+    width: 435px;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.app__subtitle, .app__heading, .app__desc {
+    color: #fff;
+}
+
+.app__subtitle::before {
+    background-color: #fff;
+}
+
+.app__desc {
+    margin-top: 18px;
+    font-size: 1.6rem;
+}
+
+.app__downloads {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.app__download-item {
+    display: flex;
+    align-items: center;
+    width: 182px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #7264d6;
+    text-align: left;
+}
+
+.app__icon {
+    width: 25px;
+    height: 25px;
+    fill: #7264D6;
+    margin-right: 8px;
+}
+
+.app-subtitle {
+    font-size: 1.2rem;
+}
+
+.app-name {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.store-subtitle {
+    font-weight: 500;
+}
